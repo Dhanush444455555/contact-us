@@ -90,6 +90,17 @@ const ContactUs = () => {
           <button type="submit" className="submit-btn animate-pulse">Send Message</button>
         </form>
       </div>
+
+      <div className="map-section animate-fade-in">
+        <h2>Our Location</h2>
+        <iframe 
+          className="location-map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.6531145484!2d75.3258!3d13.9140!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d7d84fffff!2sSiddaganga%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1678000000" 
+          allowFullScreen="" 
+          loading="lazy" 
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </div>
   );
 };
