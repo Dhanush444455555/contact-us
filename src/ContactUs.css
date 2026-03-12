@@ -1,8 +1,6 @@
 /* ContactUs.css */
 .contact-us-container {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 50px 20px;
   font-family: 'Arial', sans-serif;
   background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
   min-height: 100vh;
